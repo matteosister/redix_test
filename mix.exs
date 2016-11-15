@@ -42,6 +42,6 @@ defmodule RedixTest.Mixfile do
      {:credo, "~> 0.4", only: [:dev, :test]},
      {:timex, "~> 3.0"},
      {:cachex, "~> 2.0"},
-     {:redix, "~> 0.4"}]
+     {:redix, git: "https://github.com/primait/redix", branch: "relax_connection_dep"}]
   end
 end
